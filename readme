@@ -1,0 +1,28 @@
+#       ____        _   
+#      |  _ \  ___ | |_ 
+#      | | | |/ _ \| __|
+#      | |_| | (_) | |_ 
+#      |____/ \___/ \__|
+#    ____            _     _ _           
+#    |  _ \ _   _  __| | __| | | ___  ___ 
+#    | |_) | | | |/ _` |/ _` | |/ _ \/ __|
+#    |  __/| |_| | (_| | (_| | |  __/\__ \
+#    |_|    \__,_|\__,_|\__,_|_|\___||___/
+#
+#
+#
+pacs="sudo pacman -S "
+pacss="sudo pacman -Ss "
+par='sudo pacman -Rns "
+yur="yay "
+yurs='yay -S'
+uppies="sudo pacman -Syyu && 
+cleanup='sudo pacman -Rns (pacman -Qtdq)
+#
+#
+alias shellfish 'chsh -s /bin/fish'
+alias shellzsh 'chsh -s /bin/zsh'
+alias shellbash 'chsh -s /bin/zsh
+#
+#
+
