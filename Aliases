@@ -1,0 +1,18 @@
+alias -s pacs="sudo pacman -S "
+alias -s pacss="sudo pacman -Ss "
+alias -s pacr="sudo pacman -Rns "
+alias -s yays='yay -S '
+alias -s bigups="sudo pacman -Syyu && yay && flatpak upgrade"
+alias -s cleanup='sudo pacman -Rns (pacman -Qtdq)
+alias -s fixpacman='sudo rm /var/lib/pacman/db.lck'
+
+alias -s shellfish="chsh -s /bin/fish"
+alias -s shellzsh="chsh -s /bin/zsh"
+alias -s shellbash="chsh -s /bin/zsh"
+alias -s shellnu="chsh -s /bin/nu"
+
+alias -s shutdown='systemctl poweroff'
+alias -s uefi='systemctl reboot --firmware-setup'
+alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
+alias -s hypranimate='sudo micro ~/.config/hypr/animation.conf'
+alias -s hyprconfkeys'sudo micro ~/.config/hypr/keybinds.conf'
