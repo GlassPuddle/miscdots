@@ -1,10 +1,11 @@
 alias -s pacs="sudo pacman -S "
 alias -s pacss="sudo pacman -Ss "
 alias -s pacr="sudo pacman -Rns "
+alias -s pacrd="sudo pacman -Rnsdd " 
 alias -s yays='yay -S '
 alias -s bigups="sudo pacman -Syyu && yay && flatpak upgrade"
-alias -s cleanup='sudo pacman -Rns (pacman -Qtdq)
-alias -s fixpacman='sudo rm /var/lib/pacman/db.lck'
+alias -s fuckorphans="sudo pacman -Rns (pacman -Qtdq)"
+alias -s lockbgone="sudo rm /var/lib/pacman/db.lck"
 
 alias -s shellfish="chsh -s /bin/fish"
 alias -s shellzsh="chsh -s /bin/zsh"
