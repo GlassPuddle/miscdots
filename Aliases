@@ -14,15 +14,16 @@ alias -s shellzsh="chsh -s /bin/zsh"
 alias -s shellbash="chsh -s /bin/zsh"
 alias -s shellnu="chsh -s /bin/nu"
 
-#    Misc
+#   Power
 alias -s shutdown='systemctl poweroff'
 alias -s uefi='systemctl reboot --firmware-setup'
+alias -s
 
 #    Hyprland Config QuickAccess
-alias -s hypranimate='sudo micro ~/.config/hypr/animation.conf'
-alias -s hyprconfkeys'sudo micro ~/.config/hypr/hyprland.conf'
+alias -s hyprconf'sudo micro ~/.config/hypr/hyprland.conf'
+alias -s hyprkeys='sudo micro ~/.config/hypr/keybinds.conf'
 
-
+#    git curls
 alias -s "spicetistall =curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh"
 alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
 alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
