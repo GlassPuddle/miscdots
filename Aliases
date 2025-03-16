@@ -1,3 +1,4 @@
+#         PACMAN | AUR
 alias -s pacs="sudo pacman -S "
 alias -s pacss="sudo pacman -Ss "
 alias -s pacr="sudo pacman -Rns "
@@ -7,13 +8,21 @@ alias -s bigups="sudo pacman -Syyu && yay && flatpak upgrade"
 alias -s fuckorphans="sudo pacman -Rns (pacman -Qtdq)"
 alias -s lockbgone="sudo rm /var/lib/pacman/db.lck"
 
+#     Shell change
 alias -s shellfish="chsh -s /bin/fish"
 alias -s shellzsh="chsh -s /bin/zsh"
 alias -s shellbash="chsh -s /bin/zsh"
 alias -s shellnu="chsh -s /bin/nu"
 
+#    Misc
 alias -s shutdown='systemctl poweroff'
 alias -s uefi='systemctl reboot --firmware-setup'
-alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
+
+#    Hyprland Config QuickAccess
 alias -s hypranimate='sudo micro ~/.config/hypr/animation.conf'
-alias -s hyprconfkeys'sudo micro ~/.config/hypr/keybinds.conf'
+alias -s hyprconfkeys'sudo micro ~/.config/hypr/hyprland.conf'
+
+
+alias -s "spicetistall =curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh"
+alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
+alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
