@@ -1,36 +1,15 @@
-    ____ _               ____            _     _ _           
-   / ___| | __ _ ___ ___|  _ \ _   _  __| | __| | | ___  ___ 
-  | |  _| |/ _` / __/ __| |_) | | | |/ _` |/ _` | |/ _ \/ __|
-  | |_| | | (_| \__ \__ \  __/| |_| | (_| | (_| | |  __/\__ \
-   \____|_|\__,_|___/___/_|    \__,_|\__,_|\__,_|_|\___||___/  
-    __  ____        _                _    _ _            __  
-   / / |  _ \  ___ | |_ ___   _     / \  | (_) __ _ ___  \ \ 
-  | |  | | | |/ _ \| __/ __| (_)   / _ \ | | |/ _` / __|  | |
-  | |  | |_| | (_) | |_\__ \  _   / ___ \| | | (_| \__ \  | |
-  | |  |____/ \___/ \__|___/ (_) /_/   \_\_|_|\__,_|___/  | |
-   \_\                                                   /_/
+ ____________________________________________________________
+/   ____ _               ____            _     _ _           \
+|  / ___| | __ _ ___ ___|  _ \ _   _  __| | __| | | ___ ___  |
+| | |  _| |/ _` / __/ __| |_) | | | |/ _` |/ _` | |/ _ / __| |
+| | |_| | | (_| \__ \__ |  __/| |_| | (_| | (_| | |  __\__ \ |
+|  \____|_|\__,_|___|___|_|    \__,_|\__,_|\__,_|_|\___|___/ |
+\                     MiscDots!                               /
+ ------------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||  
 
-          #Package Management
-pacs="sudo pacman -S "
-pacss="sudo pacman -Ss "
-pacr="sudo pacman -Rns "
-yays='yay -S '
-bigups="sudo pacman -Syyu && yay && flatpak upgrade"
-cleanup='sudo pacman -Rns (pacman -Qtdq)
-fixpacman='sudo rm /var/lib/pacman/db.lck'
-
-              #ShellChange
-alias shellfish 'chsh -s /bin/fish'
-alias shellzsh 'chsh -s /bin/zsh'
-alias shellbash 'chsh -s /bin/zsh
-
-                #Power
-shutdown='systemctl poweroff'
-uefi='systemctl reboot --firmware-setup'
-
-               #webapps
-alias lindev='curl -fsSL https://christitus.com/linuxdev | sh'
-
-                #Hyprland
-alias hypranimate='sudo micro ~/.config/hypr/animation.conf'
-alias hyprconfkeys'sudo micro ~/.config/hypr/keybinds.conf'
+This repo contains my personal Alias shortcuts, pacakage management commands, and other smaller / less significant config stuff
