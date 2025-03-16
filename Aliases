@@ -1,4 +1,4 @@
-#         PACMAN | AUR
+        PACMAN | AUR
 alias -s pacs="sudo pacman -S "
 alias -s pacss="sudo pacman -Ss "
 alias -s pacr="sudo pacman -Rns "
@@ -8,7 +8,7 @@ alias -s bigups="sudo pacman -Syyu && yay && flatpak upgrade"
 alias -s fuckorphans="sudo pacman -Rns (pacman -Qtdq)"
 alias -s lockbgone="sudo rm /var/lib/pacman/db.lck"
 
-#     Shell change
+    Shell change
 alias -s shellfish="chsh -s /bin/fish"
 alias -s shellzsh="chsh -s /bin/zsh"
 alias -s shellbash="chsh -s /bin/zsh"
@@ -27,3 +27,6 @@ alias -s hyprkeys='sudo micro ~/.config/hypr/keybinds.conf'
 alias -s "spicetistall =curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh"
 alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
 alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
+
+    Miscellaneous 
+alias -s groupadd="sudo usermod -a -G "
