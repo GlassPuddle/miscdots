@@ -1,0 +1,136 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 77,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_6",
+        "name": "DP3 WS2-6",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 81,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_5\n",
+        "name": "DP-3 WS5",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 76,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_4",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 79,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_1",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 75,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_2",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 80,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_3",
+        "name": "HDMI-WS3-1",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 127,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 127,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            },
+            {
+                "type": 1,
+                "code": 14,
+                "origin_hash": "affff947cafe9c1d8e10ebb94dc1dbdc"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Super_L + KEY_Q",
+        "mapping_type": "key_macro"
+    }
+]
