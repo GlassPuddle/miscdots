@@ -28,5 +28,12 @@ alias -s "spicetistall =curl -fsSL https://raw.githubusercontent.com/spicetify/c
 alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
 alias -s lindev='curl -fsSL https://christitus.com/linuxdev | sh'
 
-    Miscellaneous 
-alias -s groupadd="sudo usermod -a -G "
+# Spicetify Shortcuts
+alias -s spiceply="spicetify apply"         #Spicetify apply update
+alias -s spotibackply="spicetify restore backup apply"         #for when spiceitfy apply dont werk
+alias -s spotifup="spicetify update && spicetify apply"         #spictify cli update and apply
+
+
+#    Miscellaneous 
+alias -s groupadd="sudo usermod -a -G "         #add user to system group
+
