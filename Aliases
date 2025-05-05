@@ -33,6 +33,11 @@ alias -s spiceply="spicetify apply"         #Spicetify apply update
 alias -s spotibackply="spicetify restore backup apply"         #for when spiceitfy apply dont werk
 alias -s spotifup="spicetify update && spicetify apply"         #spictify cli update and apply
 
+# Flatpak cli 
+alias -s flatlist='flatpak lalias -s' 
+alias -s flatstall='flatpak install 'ist'
+alias -s flatrm='flatpak remove '
+alias -s flatup='flatpak upgrade ' 
 
 #    Miscellaneous 
 alias -s groupadd="sudo usermod -a -G "         #add user to system group
