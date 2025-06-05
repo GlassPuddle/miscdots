@@ -1,0 +1,42 @@
+#        PACMAN | AUR
+alias pacs="sudo pacman -S "
+alias pacss="sudo pacman -Ss "
+alias pacr="sudo pacman -Rns "
+alias pacrd="sudo pacman -Rnsdd " 
+alias yays='yay -S '
+alias bigups="sudo pacman -Syyu && yay && flatpak upgrade"
+alias fuckorphans="sudo pacman -Rns (pacman -Qtdq)"
+alias lockbgone="sudo rm /var/lib/pacman/db.lck"
+
+#    Shell change
+alias shellfish="chsh -s /bin/fish"
+alias shellzsh="chsh -s /bin/zsh"
+alias shellbash="chsh -s /bin/zsh"
+alias shellnu="chsh -s /bin/nu"
+
+#   Power
+alias shutdown='systemctl poweroff'
+alias uefi='systemctl reboot --firmware-setup'
+
+#    Hyprland Config QuickAccess
+alias hyprconf='sudo micro ~/.config/hypr/hyprland.conf'
+alias hyprkeys='sudo micro ~/.config/hypr/keybinds.conf'
+
+#    git curls
+alias "spicetistall =curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh"
+alias lindev='curl -fsSL https://christitus.com/linuxdev | sh'
+alias lindev='curl -fsSL https://christitus.com/linuxdev | sh'
+
+# Spicetify Shortcuts
+alias spiceply="spicetify apply"         #Spicetify apply update
+alias spotibackply="spicetify restore backup apply"         #for when spiceitfy apply dont werk
+alias spotifup="spicetify update && spicetify apply"         #spictify cli update and apply
+
+# Flatpak cli 
+alias flatlist='flatpak lalias -s'     
+alias flatstall='flatpak install 'ist'
+alias flatrm='flatpak remove '
+alias flatup='flatpak upgrade ' 
+
+#    Miscellaneous 
+alias groupadd="sudo usermod -a -G "         #add user to system group
